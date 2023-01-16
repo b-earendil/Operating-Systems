@@ -1,0 +1,17 @@
+################
+CS:APP Shell Lab
+################
+
+Files:
+
+Makefile	        # Compiles your shell program and runs the tests
+README		        # This file
+tsh.c		        # The shell program 
+jobs.c		        # Routines to manipulate a 'jobs' data structure
+helper-routines	    # Routines that you will use, but do not need to write
+pipe.c              # Single pipe for IPC between parent and child. Runs separately from shell (tsh.c)
+
+# Little C program for testing
+# Let a process spin in the bg
+myspin.c	# Takes argument <n> and spins for <n> seconds
+
